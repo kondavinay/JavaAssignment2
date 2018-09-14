@@ -4,19 +4,19 @@ Purpose of the project
 Rabobank receives monthly deliveries of customer statement records. This information is delivered in two formats, CSV and XML. These records need to be validated.
 
 
-Field	                             Description                           
+Field	 :                            Description                           
 
-A numeric value                      Transaction reference
+A numeric value  :                    Transaction reference
 
-Account number                       An IBAN
+Account number :                      An IBAN
 
-Start Balance                        The starting balance in Euros
+Start Balance:                        The starting balance in Euros
 
-Mutation                             Either and addition (+) or a deducation (-)
+Mutation :                            Either and addition (+) or a deducation (-)
 
-Description                           Free text
+Description :                          Free text
 
-End Balance                           The end balance in Euros
+End Balance  :                         The end balance in Euros
 
 com.rabo.statementprocessor project:
 
