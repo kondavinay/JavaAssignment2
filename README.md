@@ -33,7 +33,9 @@ In this package csv and xml pojo class was declared which was used in the file r
 
 Validation package:
 This package consists of two classes 
+
 1)File reader processing class: This class receives the input from the csv file reader and xml file reader and passes the input to validation class
+
 2)validationclass : consists of a validation method which performs the validation on duplicate record references and end balance not matched records
 
 Interface:
@@ -43,9 +45,11 @@ StatementprocessorPackage:
 
 Fileconfigclass: The configuration and componentscan annotations were used in this class for assigining the base packages.
 Statementprocessorclass: This class consists of the method csvandxmlFileReading which was autowired.
+
 CustomerDetailsClass: This is the main class by using applicationcontext reference  the csv and xml reader class can be invoked 
 by using primary annotation in filereaderpackage classes.
-.
+
+
 input.csv is the file i have used has the reference file in CsvFileReader.
 input.xml is the file i have used has the reference file in XmlFileReader.
 
