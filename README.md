@@ -51,9 +51,11 @@ by using primary annotation in filereaderpackage classes.
 
 
 input.csv is the file i have used has the reference file in CsvFileReader.
+
 input.xml is the file i have used has the reference file in XmlFileReader.
 
 csvfileoutput:This file consists the details of failed record references and end balance success and failed validations of csv file.
+
 xmlfileoutput:This file consists the details of failed record references and end balance success and failed validations of xml file.
 
 
